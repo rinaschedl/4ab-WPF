@@ -1,6 +1,18 @@
+namespace SpriteKind {
+    export const Background = SpriteKind.create()
+}
+function spawnSomething (roll: number) {
+	
+}
 controller.down.onEvent(ControllerButtonEvent.Repeated, function () {
     ballon.y += 1
 })
+function createAnimationArrays () {
+	
+}
+function placeMountain (leftPosition: number) {
+	
+}
 controller.left.onEvent(ControllerButtonEvent.Repeated, function () {
     ballon.x += -1
 })
